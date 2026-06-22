@@ -1,14 +1,14 @@
 export const PROCESS_COLORS = [
   "#6366f1",
-  "#ec4899",
-  "#14b8a6",
-  "#f59e0b",
-  "#8b5cf6",
-  "#ef4444",
-  "#06b6d4",
+  "#781245",
+  "#166c62",
+  "#69460a",
+  "#4f09f3",
+  "#f31414",
+  "#7cc6d3",
   "#84cc16",
-  "#f97316",
-  "#a855f7",
+  "#f0a672",
+  "#00deee",
 ];
 
 export function getProcessColor(processId, allIds) {
