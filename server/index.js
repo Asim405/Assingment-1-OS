@@ -33,8 +33,8 @@ app.get("/api/sample", (_req, res) => {
   res.json({
     processes: [
       { id: "P1", arrivalTime: 0, burstTime: 5, priority: 2 },
-      { id: "P2", arrivalTime: 1, burstTime: 3, priority: 1 },
-      { id: "P3", arrivalTime: 2, burstTime: 8, priority: 3 },
+      { id: "P2", arrivalTime: 1, burstTime: 6, priority: 1 },
+      { id: "P3", arrivalTime: 5, burstTime: 8, priority: 3 },
       { id: "P4", arrivalTime: 3, burstTime: 6, priority: 2 },
     ],
     quantum: 2,

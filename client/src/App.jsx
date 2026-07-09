@@ -30,6 +30,7 @@ export default function App() {
   const selectedAlgo = algorithms.find((a) => a.id === algorithm);
   const showPriority = selectedAlgo?.needsPriority ?? false;
 
+  
   useEffect(() => {
     fetchAlgorithms()
       .then(setAlgorithms)
